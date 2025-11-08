@@ -2,7 +2,7 @@
   "name": "react-the-complete-guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kaliaanshika/01-project-copy",
+  "homepage": "https://kaliaanshika.github.io/01-project-copy",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
