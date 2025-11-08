@@ -1,0 +1,30 @@
+.users {
+    margin: 2rem auto;
+    width: 95%;
+    max-width: 40rem;
+}
+
+ol {
+    margin-left: 0.5rem;
+    padding: 1rem;
+
+}
+
+li {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #d014ff;
+    margin: 0.5rem 0;
+    padding: 0.1rem;
+
+    font-size: large;
+}
+
+.heading {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
