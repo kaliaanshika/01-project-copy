@@ -28,8 +28,8 @@ const AddUser = (props) => {
             });
             return;
         }
-        if (+enterUserage < 1) {
-            setError({
+        if (Number(enterUserage) < 1) {
+            setError({  
                 title: "Invale Age",
                 message: "Please enter valid Age (>0)",
             });

@@ -1,7 +1,7 @@
-import React from "react";
-import Classes from './ErrorModule.model.css'
-import Card from "./Card.module.css";
-import Button from "./Button.module.css";
+// import React from "react";
+import Classes from './ErrorModule.module.css'
+import Card from "./Card";
+import Button from "./Button";
 import ReactDom from "react-dom";
 
 const Backdrop = (props) => {
@@ -26,9 +26,9 @@ const ModalOverLay = (props) => {
 
 const ErrorModel = (props) => {
     return (
-        <React.Fragment>
+        <>
             {ReactDom.createPortal(
-                <Backdrop onclick={props.onClose} />,
+                <Backdrop onClick={props.onClose} />,
                 document.getElementById("backdrop-root")
             )}
             {ReactDom.createPortal(
@@ -41,7 +41,7 @@ const ErrorModel = (props) => {
                 </ModalOverLay>,
                 document.getElementById("modal-overlay-root")
             )}
-        </React.Fragment>
+        </>
     );
 };
 
