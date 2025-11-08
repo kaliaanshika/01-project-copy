@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kaliaanshika/01-project-copy/static/css/main.f371b262.css",
-    "main.js": "/kaliaanshika/01-project-copy/static/js/main.e15f7d63.js",
-    "index.html": "/kaliaanshika/01-project-copy/index.html",
-    "main.f371b262.css.map": "/kaliaanshika/01-project-copy/static/css/main.f371b262.css.map",
-    "main.e15f7d63.js.map": "/kaliaanshika/01-project-copy/static/js/main.e15f7d63.js.map"
+    "main.css": "/01-project-copy/static/css/main.f371b262.css",
+    "main.js": "/01-project-copy/static/js/main.e15f7d63.js",
+    "index.html": "/01-project-copy/index.html",
+    "main.f371b262.css.map": "/01-project-copy/static/css/main.f371b262.css.map",
+    "main.e15f7d63.js.map": "/01-project-copy/static/js/main.e15f7d63.js.map"
   },
   "entrypoints": [
     "static/css/main.f371b262.css",
